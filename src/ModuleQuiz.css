@@ -1,0 +1,348 @@
+.App {
+  overflow: hidden;
+}
+
+#header {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+#header p {
+  font-size: 35px;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+}
+
+#header2 {
+  border: 1px solid transparent;
+  height: 70px;
+  width: 100%;
+  background-color: rgb(28, 51, 85);
+}
+
+#coursehead {
+  color: white;
+  font-size: 23px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+#hitext {
+  position: absolute;
+  top: -5px;
+  left: 1550px;
+  font-size: 23px;
+}
+
+#profileimg {
+  height: 55px;
+  width: 55px;
+  left: 1730px;
+  top: 7px;
+  border-radius: 30px;
+  position: absolute;
+  background-color: rgb(255, 208, 0);
+}
+
+#coursetitle {
+  color: white;
+  position: absolute;
+  top: 55px;
+  font-size: 30px;
+  margin-left: 300px;
+}
+
+
+#leftbar {
+  background-color: rgb(28, 51, 85);
+  height: 830px;
+  width: 130px;
+}
+
+#homeimg {
+  margin-top: 15px;
+  margin-left: 40px;
+  height: 50px;
+  width: 50px;
+  background-image: url(img/home2.png);
+  background-size: 100% 100%;
+}
+
+#modulesimg {
+  margin-top: 15px;
+  margin-left: 40px;
+  height: 50px;
+  width: 50px;
+  background-image: url(img/modules.png);
+  background-size: 100% 100%;
+}
+
+#imgloop2 {
+  position: absolute;
+  top: 16px;
+  height: 40px;
+  width: 40px;
+  left: 50px
+}
+
+
+#imgquiz {
+  position: absolute;
+  top: 90px;
+  height: 40px;
+  width: 40px;
+  left: 25px
+}
+
+#imgassign2 {
+  position: absolute;
+  top: 153px;
+  height: 43px;
+  width: 43px;
+  left: 35px
+}
+
+
+#instructorimg {
+  margin-top: 15px;
+  margin-left: 40px;
+  height: 50px;
+  width: 50px;
+  background-image: url(img/instructor2.png);
+  background-size: 100% 100%;
+
+}
+
+#homebutton,
+#modulesbutton,
+#instructorsbutton {
+  border: 1px solid transparent;
+  height: 100px;
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#homebutton p,
+#modulesbutton p,
+#instructorsbutton p {
+  margin-top: 5px;
+}
+
+
+#homebutton {
+  color: white;
+}
+
+#modulesbutton {
+  background-color: rgb(203, 208, 235);
+}
+
+#instructorsbutton {
+  color: white;
+}
+
+#modulesection {
+  background-color: aliceblue;
+  height: 825px;
+  width: 1785px;
+  position: absolute;
+  top: 143px;
+  left: 130px;
+}
+
+#modulesleft {
+  height: 830px;
+  width: 350px;
+  background-color: rgb(213, 221, 241);
+}
+
+#modleftt1 {
+  padding-top: 20px;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  height: 55px;
+}
+
+#modleftt2 {
+  padding-top: 20px;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  height: 55px;
+  background-color: rgb(185, 195, 221);
+  font-weight: 500;
+
+}
+
+#modleftt3 {
+  padding-top: 5px;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  height: 80px;
+
+}
+
+#modulesright {
+  position: absolute;
+  top: 0px;
+  height: 830px;
+  width: 1400px;
+  left: 350px;
+}
+
+
+#modulerightboxx {
+  position: absolute;
+  height: 200px;
+  width: 1100px;
+  box-shadow: 0px 1px 5px 3px rgb(165, 172, 211);
+  border-radius: 20px;
+  top: 200px;
+  left: 160px;
+  background-color: white;
+}
+
+#mr1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-left: 160px;
+}
+
+#mr2 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: -20px;
+  color: gray;
+  margin-left: 160px;
+}
+
+#mr3 {
+  font-size: 23px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-left: 160px;
+}
+
+
+#ques {
+  position: absolute;
+  top: 35px;
+  left: 108px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+#questag {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  font-size: 20px;
+  font-weight: 500;
+  color: gray;
+}
+
+#dur {
+  position: absolute;
+  top: 35px;
+  left: 248px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+#durtag {
+  position: absolute;
+  top: 80px;
+  left: 215px;
+  font-size: 20px;
+  font-weight: 500;
+  color: gray;
+}
+
+#score1 {
+  position: absolute;
+  top: 35px;
+  left: 368px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+#scoretag1 {
+  position: absolute;
+  top: 80px;
+  left: 340px;
+  font-size: 20px;
+  font-weight: 500;
+  color: gray;
+}
+
+
+
+#modstart1 {
+  position: absolute;
+  top: 20px;
+  left: 550px;
+  font-size: 21px;
+  letter-spacing: 2px;
+}
+
+#modstart2 {
+  position: absolute;
+  top: 55px;
+  left: 550px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: gray;
+}
+
+
+#modstart3 {
+  position: absolute;
+  top: 90px;
+  left: 550px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: gray;
+}
+
+#moddue1 {
+  position: absolute;
+  top: 20px;
+  left: 800px;
+  font-size: 21px;
+  letter-spacing: 2px;
+}
+
+#moddue2 {
+  position: absolute;
+  top: 55px;
+  left: 800px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: gray;
+}
+
+
+#moddue3 {
+  position: absolute;
+  top: 90px;
+  left: 800px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: gray;
+}
+
+#verticalline {
+  margin-left: 500px;
+  margin-top: 40px;
+  height: 120px;
+  width: 2px;
+  background-color: rgb(201, 201, 201);
+}

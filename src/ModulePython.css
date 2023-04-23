@@ -1,0 +1,347 @@
+.App {
+  overflow: hidden;
+}
+
+#header {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+#header p {
+  font-size: 35px;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+}
+
+#header2 {
+  border: 1px solid transparent;
+  height: 70px;
+  width: 100%;
+  background-color: rgb(28, 51, 85);
+}
+
+#coursehead {
+  color: white;
+  font-size: 23px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+#hitext {
+  position: absolute;
+  top: -5px;
+  left: 1550px;
+  font-size: 23px;
+}
+
+#profileimg {
+  height: 55px;
+  width: 55px;
+  left: 1730px;
+  top: 7px;
+  border-radius: 30px;
+  position: absolute;
+  background-color: rgb(255, 208, 0);
+}
+
+#coursetitle {
+  color: white;
+  position: absolute;
+  top: 55px;
+  font-size: 30px;
+  margin-left: 300px;
+}
+
+
+#leftbar {
+  background-color: rgb(28, 51, 85);
+  height: 830px;
+  width: 130px;
+}
+
+#homeimg {
+  margin-top: 15px;
+  margin-left: 40px;
+  height: 50px;
+  width: 50px;
+  background-image: url(img/home2.png);
+  background-size: 100% 100%;
+}
+
+#modulesimg {
+  margin-top: 15px;
+  margin-left: 40px;
+  height: 50px;
+  width: 50px;
+  background-image: url(img/modules.png);
+  background-size: 100% 100%;
+}
+
+#instructorimg {
+  margin-top: 15px;
+  margin-left: 40px;
+  height: 50px;
+  width: 50px;
+  background-image: url(img/instructor2.png);
+  background-size: 100% 100%;
+
+}
+
+#homebutton,
+#modulesbutton,
+#instructorsbutton {
+  border: 1px solid transparent;
+  height: 100px;
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#homebutton p,
+#modulesbutton p,
+#instructorsbutton p {
+  margin-top: 5px;
+}
+
+
+#homebutton {
+  color: white;
+}
+
+#modulesbutton {
+  background-color: rgb(203, 208, 235);
+}
+
+#instructorsbutton {
+  color: white;
+}
+
+#modulesection {
+  background-color: aliceblue;
+  height: 825px;
+  width: 1785px;
+  position: absolute;
+  top: 143px;
+  left: 130px;
+}
+
+#modulesleft {
+  height: 830px;
+  width: 350px;
+  background-color: rgb(213, 221, 241);
+}
+
+#modlefttt1 {
+  padding-top: 20px;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  height: 55px;
+  background-color: rgb(185, 195, 221);
+  font-weight: 500;
+}
+
+#modlefttt2 {
+  padding-top: 20px;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  height: 55px;
+
+}
+
+#modlefttt3 {
+  padding-top: 5px;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  height: 80px;
+
+}
+
+#modulesright {
+  position: absolute;
+  top: 0px;
+  height: 830px;
+  width: 1400px;
+  left: 350px;
+}
+
+
+#pr1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-left: 160px;
+}
+
+#pr2 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: -20px;
+  color: gray;
+  margin-left: 160px;
+}
+
+#pr3 {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-left: 1080px;
+  color: rgb(56, 125, 255);
+  font-weight: 700;
+}
+
+
+#modulerightbox {
+  position: absolute;
+  height: 500px;
+  width: 1100px;
+  box-shadow: 0px 1px 5px 3px rgb(165, 172, 211);
+  border-radius: 5px;
+  top: 270px;
+  left: 160px;
+  background-color: white;
+}
+
+#mrr1 {
+  position: absolute;
+  top: 10px;
+  left: 70px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#mrr2 {
+  position: absolute;
+  top: 60px;
+  left: 70px;
+  font-size: 20px;
+  color: gray;
+}
+
+#mrr3 {
+  cursor: pointer;
+  position: absolute;
+  top: 130px;
+  left: 70px;
+  font-size: 20px;
+  padding: 5px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 20px;
+  background-color: rgb(224, 224, 224);
+}
+
+#mrr4 {
+  position: absolute;
+  top: 180px;
+  left: 70px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#mrr5 {
+  position: absolute;
+  top: 220px;
+  left: 70px;
+  font-size: 20px;
+  color: gray;
+}
+
+#mrr6 {
+  position: absolute;
+  top: 250px;
+  left: 70px;
+  font-size: 20px;
+  color: gray;
+}
+
+#mrr7 {
+  position: absolute;
+  top: 280px;
+  left: 70px;
+  font-size: 20px;
+  color: gray;
+}
+
+#mrr8 {
+  position: absolute;
+  top: 340px;
+  left: 70px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#tabheadwhite {
+  position: absolute;
+  top: 260px;
+  left: 160px;
+  height: 15px;
+  width: 275px;
+  background-color: white;
+}
+
+#imgloop1 {
+  position: absolute;
+  top: 16px;
+  height: 40px;
+  width: 40px;
+  left: 50px
+}
+
+
+#imgquiz2 {
+  position: absolute;
+  top: 90px;
+  height: 40px;
+  width: 40px;
+  left: 25px
+}
+
+
+#imgassign2 {
+  position: absolute;
+  top: 153px;
+  height: 43px;
+  width: 43px;
+  left: 35px
+}
+
+
+#modulerightboxhead {
+  position: absolute;
+  height: 60px;
+  width: 1100px;
+  left: 160px;
+  top: 210px;
+  display: flexbox;
+}
+
+#modhead1,
+#modhead2,
+#modhead3,
+#modhead4 {
+  cursor: pointer;
+  display: inline-block;
+  height: 100%;
+  width: 275px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#modhead1 {
+  height: 43px;
+  background-color: white;
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  box-shadow: 0px -1px 5px 3px rgb(165, 172, 211);
+}

@@ -1,3 +1,13 @@
+Project deployed link : https://edyodamain.netlify.app/
+
+For running the project, Follow the below steps : 
+
+1) Install nodejs 
+2) Run "npm install"
+3) Then run "npm start" to start the project.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
